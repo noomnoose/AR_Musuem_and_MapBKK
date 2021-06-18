@@ -9,12 +9,18 @@ public class MapEvent : MonoBehaviour
     public Vector3 scale;
 
     public static List<MapEvent> list;
+    Renderer[] renders;
+    Collider[] colliders;
 
     void Start()
     {
         var tracker = GetComponent<DefaultTrackableEventHandler>();
         tracker.OnTargetFound.AddListener(OnFound);
         tracker.OnTargetLost.AddListener(OnLost);
+
+        renders = building.GetComponentsInChildren<Renderer>();
+        colliders = building.GetComponentsInChildren<Collider>();
+
     }
 
     [ContextMenu("Copy")]
@@ -76,6 +82,13 @@ public class MapEvent : MonoBehaviour
         }
         else
         {
+            foreach (var item in renders)
+                item.enabled = true;
+            
+            foreach (var item in colliders)
+                item.enabled = true;
+            
+
             building.gameObject.SetActive(true);
         }
     }

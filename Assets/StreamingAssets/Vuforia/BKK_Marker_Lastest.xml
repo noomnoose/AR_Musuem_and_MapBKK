@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="BKK_FullMap_Re" size="15.000000 21.217741" />
+    <ImageTarget name="BKK_Re_4" size="15.000000 21.217741" />
+    <ImageTarget name="BKK_Re_3" size="15.000000 21.217741" />
+    <ImageTarget name="BKK_Re_2" size="15.000000 21.217741" />
+    <ImageTarget name="BKK_Re_1" size="15.000000 21.217741" />
+  </Tracking>
+</QCARConfig>

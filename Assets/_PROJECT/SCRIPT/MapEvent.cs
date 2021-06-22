@@ -65,6 +65,8 @@ public class MapEvent : MonoBehaviour
     {
         if (pauseStatus == false)
         {
+            if (list == null)
+                list = new List<MapEvent>();
             list.Clear();
         }
 
@@ -84,10 +86,10 @@ public class MapEvent : MonoBehaviour
         {
             foreach (var item in renders)
                 item.enabled = true;
-            
+
             foreach (var item in colliders)
                 item.enabled = true;
-            
+
 
             building.gameObject.SetActive(true);
         }

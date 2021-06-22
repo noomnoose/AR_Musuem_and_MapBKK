@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/_SCENE_Duck/BKK_MAP.unity
+    path: Assets/_PROJECT/SCENES/_SCENE_Duck/BKK_MAP.unity
     guid: 240c059acb44e1840b2b4236b2871645
   m_configObjects: {}

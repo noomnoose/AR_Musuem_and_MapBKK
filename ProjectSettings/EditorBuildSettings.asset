@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_PROJECT/SCENES/_SCENE_noom/Jar_sssFinal.unity
+    path: Assets/_PROJECT/SCENES/_SCENE_noom/Jar_sssFinal_Main.unity
     guid: 41bbd82e033834d409b81a23eae86df6
   m_configObjects: {}

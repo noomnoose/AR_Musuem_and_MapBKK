@@ -5,10 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/_PROJECT/SCENES/_SCENE_Duck/BKK_MAP.unity
-    guid: 240c059acb44e1840b2b4236b2871645
+    path: Assets/_PROJECT/SCENES/_SCENE_noom/Jar_sssFinal.unity
+    guid: 41bbd82e033834d409b81a23eae86df6
   m_configObjects: {}

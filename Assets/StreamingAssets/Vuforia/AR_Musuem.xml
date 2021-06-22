@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="3legs_jpg_15" size="15.000000 15.000000" />
+    <ImageTarget name="mark_001_15" size="15.000000 15.000000" />
     <ImageTarget name="Marker_logo002" size="1.000000 1.000000" />
     <ImageTarget name="Mark_logo001" size="1.000000 1.000000" />
     <ImageTarget name="mark_001" size="1.000000 1.000000" />

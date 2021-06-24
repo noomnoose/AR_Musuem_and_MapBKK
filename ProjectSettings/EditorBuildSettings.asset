@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_PROJECT/SCENES/_SCENE_noom/Jar_sssFinal_Main.unity
-    guid: 41bbd82e033834d409b81a23eae86df6
+    path: Assets/_PROJECT/SCENES/_SCENE_Main/_MAIN.unity
+    guid: 7fe93351f528394498984304761f7a0d
   - enabled: 1
     path: Assets/_PROJECT/SCENES/_SCENE_Duck/BKK_MAP.unity
     guid: 240c059acb44e1840b2b4236b2871645
   - enabled: 1
-    path: Assets/_PROJECT/SCENES/_SCENE_Main/_MAIN.unity
-    guid: 7fe93351f528394498984304761f7a0d
+    path: Assets/_PROJECT/SCENES/_SCENE_noom/AR_Paint_Main.unity
+    guid: 018175c4d3f093849b8bf58bfb0937ec
   m_configObjects: {}

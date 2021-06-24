@@ -8,8 +8,8 @@ public class SceneChange : MonoBehaviour
     public enum _scene 
     {
         _MAIN,
-        BKK_MAP_NEW,
-        Jar_sssFinal_Main
+        BKK_MAP,
+        AR_Paint_Main
     }
     public _scene NextScene;
     public void onClickNextScene()

@@ -903,7 +903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5407fbcd9ccd0449895d98362b8627a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  console: {fileID: 1017061672}
+  console: {fileID: 0}
   texture: {fileID: 2800000, guid: 4cc8eb58af18daa48b93813fbc310223, type: 3}
 --- !u!1 &353649008
 GameObject:
@@ -1996,7 +1996,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 
 --- !u!222 &1128779914
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3096,7 +3096,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1930814489
 RectTransform:
   m_ObjectHideFlags: 0

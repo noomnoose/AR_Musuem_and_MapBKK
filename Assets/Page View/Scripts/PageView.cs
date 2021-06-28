@@ -29,7 +29,7 @@ namespace ASPageView
         {
             if (_animate)
             {
-                this.content.anchoredPosition = Vector2.Lerp(this.content.anchoredPosition, _destination, 7 * Time.unscaledDeltaTime);
+                this.content.anchoredPosition = Vector2.Lerp(this.content.anchoredPosition, _destination, 7 * Time.deltaTime);
                 if (Mathf.Abs(this.content.anchoredPosition.x - _destination.x) < 0.05f)
                 {
                     _animate = false;

@@ -6,7 +6,6 @@ public class ImageSaver : MonoBehaviour
 {
     public void SaveTexture(Texture2D texture)
     {
-
         byte[] bytes = texture.EncodeToPNG();
         var dirPath = Application.dataPath + "/RenderOutput";
         if (!System.IO.Directory.Exists(dirPath))

@@ -9,21 +9,21 @@ namespace ASPageView
     [ExecuteInEditMode, Serializable]
     public class PageView : ScrollRect, IDragHandler, IEndDragHandler, IBeginDragHandler
     {
-		public delegate void OnPageIndexChangedDelegate(int oldIndex, int newIndex);
-		public OnPageIndexChangedDelegate OnPageIndexChanged;
+        public delegate void OnPageIndexChangedDelegate(int oldIndex, int newIndex);
+        public OnPageIndexChangedDelegate OnPageIndexChanged;
 
         private List<PageViewChild> _pageViewChildren = new List<PageViewChild>();
         private int _currentPageIndex = 0;
-		private int _oldIndex = 0;
+        private int _oldIndex = 0;
         private float _pageWidth = 0f;
         private bool _animate = false;
         private float _lastDragSpeed = 0;
         private Vector2 _destination = Vector2.zero;
         private int _oldChildCount = 0;
-		private Vector2 startDragPos = Vector2.zero;
+        private Vector2 startDragPos = Vector2.zero;
 
         public RectTransform pageIndicator;
-		public bool doNotAllowBackwardNavigation = false;
+        public bool doNotAllowBackwardNavigation = false;
 
         public void Update()
         {
@@ -34,10 +34,10 @@ namespace ASPageView
                 {
                     _animate = false;
 
-					if (OnPageIndexChanged != null && _currentPageIndex != _oldIndex) 
-					{
-						OnPageIndexChanged (_oldIndex, _currentPageIndex);
-					}
+                    if (OnPageIndexChanged != null && _currentPageIndex != _oldIndex)
+                    {
+                        OnPageIndexChanged(_oldIndex, _currentPageIndex);
+                    }
                 }
             }
             if (_oldChildCount != content.childCount)
@@ -114,10 +114,10 @@ namespace ASPageView
             index = Mathf.Min(_pageViewChildren.Count - 1, Mathf.Max(index, 0));
             _destination = this.content.anchoredPosition;
             _destination.x = index * _pageWidth * -1;
-			_oldIndex = _currentPageIndex;
-			_currentPageIndex = index;
-			_UpdatePageIndicator();
-			_animate = true;
+            _oldIndex = _currentPageIndex;
+            _currentPageIndex = index;
+            _UpdatePageIndicator();
+            _animate = true;
         }
 
         public void PreviousPage()
@@ -138,30 +138,33 @@ namespace ASPageView
             _destination.x = Mathf.Min(Mathf.Max((Mathf.Round((_destination.x + _lastDragSpeed * 30) / _pageWidth) * _pageWidth), -1 * (_pageViewChildren.Count - 1) * _pageWidth), 0f);
             _destination.x = Mathf.Max(oldDestination.x - _pageWidth, Mathf.Min(oldDestination.x + _pageWidth, _destination.x));
 
-			int index = (int)Mathf.Abs(Mathf.Round(_destination.x / _pageWidth));
+            if (_pageWidth <= 0)
+                OnRectTransformDimensionsChange();
 
-			_oldIndex = _currentPageIndex;
-			_currentPageIndex = index;
-			_UpdatePageIndicator ();
-			_animate = true;
+            int index = (int)Mathf.Abs(Mathf.Round(_destination.x / _pageWidth));
+
+            _oldIndex = _currentPageIndex;
+            _currentPageIndex = index;
+            _UpdatePageIndicator();
+            _animate = true;
         }
 
         public override void OnDrag(PointerEventData data)
         {
-			if (doNotAllowBackwardNavigation && data.position.x > startDragPos.x) 
-			{
-				_lastDragSpeed = 0;
-				base.OnEndDrag(data);
-				return;
-			}
-			base.OnDrag(data);
+            if (doNotAllowBackwardNavigation && data.position.x > startDragPos.x)
+            {
+                _lastDragSpeed = 0;
+                base.OnEndDrag(data);
+                return;
+            }
+            base.OnDrag(data);
             _lastDragSpeed = data.delta.x;
         }
 
-		public override void OnBeginDrag(PointerEventData data)
+        public override void OnBeginDrag(PointerEventData data)
         {
             base.OnBeginDrag(data);
-			startDragPos = data.position;
+            startDragPos = data.position;
             _animate = false;
         }
 

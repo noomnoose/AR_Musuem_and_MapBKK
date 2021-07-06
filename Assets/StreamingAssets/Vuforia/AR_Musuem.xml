@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="buff_v1-4" size="15.000000 15.000000" />
+    <ImageTarget name="IMG20210706131348" size="15.000000 11.250000" />
+    <ImageTarget name="IMG_Dish1-1" size="15.000000 20.848085" />
     <ImageTarget name="Leo_V1-3" size="15.000000 15.000000" />
     <ImageTarget name="Leo_V1-2" size="15.000000 15.000000" />
     <ImageTarget name="Leo_V1-1" size="15.000000 15.000000" />

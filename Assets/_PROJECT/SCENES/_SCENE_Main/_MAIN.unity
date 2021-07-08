@@ -1604,7 +1604,8 @@ MonoBehaviour:
         m_MethodName: SaveTexture
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 2800000, guid: e63d7dca15f8a4649b06a8b8b1773673,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture2D, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1615,7 +1616,8 @@ MonoBehaviour:
         m_MethodName: SaveTexture
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 2800000, guid: 8c5aaff02b808db449533414a35fa127,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture2D, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1626,7 +1628,8 @@ MonoBehaviour:
         m_MethodName: SaveTexture
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 2800000, guid: 8e28ab991aa160340a2a01e47d7eb956,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture2D, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1637,7 +1640,8 @@ MonoBehaviour:
         m_MethodName: SaveTexture
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 2800000, guid: 650c44f696bca9b46b130b35bf459151,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture2D, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1648,7 +1652,8 @@ MonoBehaviour:
         m_MethodName: SaveTexture
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 2800000, guid: b71ceb16163f3df43bba95f242ba01c2,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture2D, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0

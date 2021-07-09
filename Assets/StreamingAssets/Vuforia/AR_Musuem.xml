@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="color-5" size="1.000000 1.414286" />
+    <ImageTarget name="color-4" size="1.000000 1.414286" />
+    <ImageTarget name="color-3" size="1.000000 1.414286" />
+    <ImageTarget name="color-2" size="1.000000 1.414286" />
+    <ImageTarget name="color-1" size="1.000000 1.414286" />
     <ImageTarget name="download-color1-Icon-1" size="1.000000 1.402477" />
     <ImageTarget name="Card_Rectangle1-1" size="1.000000 1.000000" />
     <ImageTarget name="Card_Rectangle1" size="15.000000 15.000000" />

@@ -9,7 +9,8 @@ public class SceneChange : MonoBehaviour
     {
         _MAIN,
         BKK_MAP,
-        AR_Paint_Main
+        AR_Paint_Main,
+            AR_NEW_MAIN
     }
     public _scene NextScene;
     public void onClickNextScene()

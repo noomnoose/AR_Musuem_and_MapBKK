@@ -18,6 +18,7 @@ public class SetMaterial : MonoBehaviour
 
     public void Coloring()
     {
+        
         rend.sharedMaterial = material[1];
     }
 

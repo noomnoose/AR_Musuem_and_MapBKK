@@ -11,7 +11,7 @@ public class ColorCenter : BaseColor
 {
     /// <summary>
     /// UI to display painting history
-    /// 显示涂色历史的UI
+    /// 显示涂色历史的UIt
     /// </summary>
     public GameObject Atlas;
     /// <summary>
@@ -43,6 +43,8 @@ public class ColorCenter : BaseColor
     /// </summary>
     public void Btn_Color()
     {
+        RemoveTexture();
+
         if (ifCanColor)
         {
             ShotAndColor();

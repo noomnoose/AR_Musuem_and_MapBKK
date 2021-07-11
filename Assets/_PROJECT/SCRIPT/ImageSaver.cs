@@ -23,6 +23,7 @@ public class ImageSaver : MonoBehaviour
     {
         byte[] bytes = texture.EncodeToPNG();
 
-        NativeGallery.Permission permission = NativeGallery.SaveImageToGallery( bytes, "GalleryTest", "Image.png", ( success, path ) => Debug.Log( "Media save result: " + success + " " + path ) );
+        NativeGallery.Permission permission = NativeGallery.SaveImageToGallery
+            ( bytes, "GalleryTest", "Image.png", ( success, path ) => Debug.Log( "Media save result: " + success + " " + path ) );
     }
 }

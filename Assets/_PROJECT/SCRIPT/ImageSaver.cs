@@ -7,7 +7,7 @@ public class ImageSaver : MonoBehaviour
     public void SaveTexture(Texture2D texture)
     {
         byte[] bytes = texture.EncodeToPNG();
-        var dirPath = Application.dataPath + "/RenderOutput";
+        var dirPath = Application.dataPath + "/Download";
         if (!System.IO.Directory.Exists(dirPath))
         {
             System.IO.Directory.CreateDirectory(dirPath);
@@ -17,5 +17,12 @@ public class ImageSaver : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.AssetDatabase.Refresh();
 #endif
+    }
+
+    public void DownloadImage(Texture2D texture)
+    {
+        byte[] bytes = texture.EncodeToPNG();
+
+        NativeGallery.Permission permission = NativeGallery.SaveImageToGallery( bytes, "GalleryTest", "Image.png", ( success, path ) => Debug.Log( "Media save result: " + success + " " + path ) );
     }
 }

@@ -6,8 +6,7 @@ public class ResetsGameObjects : MonoBehaviour
 {
    
     public GameObject jar;
- 
-    public float timeRemainnig = 1.5f;
+    public float timeRemainnig;
     public bool timeIsRunning = false;
     // Start is called before the first frame update
     void Start()

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SetMaterial : MonoBehaviour
+public class SetMaterialColoring : MonoBehaviour
 {
 
     public Material[] material;
@@ -11,9 +11,9 @@ public class SetMaterial : MonoBehaviour
 
 
 
-    public float timeReset;
-    public float timeRemainnig;
-    public bool timeIsRunning = false;
+  
+    //public float timeRemainnig = 0.5f;
+//    public bool timeIsRunning = false;
 
 
     void Start()
@@ -26,6 +26,7 @@ public class SetMaterial : MonoBehaviour
 
     void Update()
     {
+        /*
         if (timeIsRunning)
         {
 
@@ -39,14 +40,15 @@ public class SetMaterial : MonoBehaviour
                 rend.sharedMaterial = material[0];
             }
         }
+        */
     }
 
     public void Coloring()
     {
         rend.sharedMaterial = material[1];
-        timeIsRunning = true;
-        timeRemainnig = timeReset;
-        Debug.Log("chang material");
+        ///timeIsRunning = true;
+       // timeRemainnig = 0.5f;
+       // Debug.Log("chang material");
     }
 
  

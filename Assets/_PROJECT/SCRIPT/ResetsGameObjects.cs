@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class ResetsGameObjects : MonoBehaviour
 {
-   
+
+    //reset position
+    public Quaternion startRotation;
+
+
+    //reset time object
     public GameObject jar;
     public float timeRemainnig;
     public bool timeIsRunning = false;
     // Start is called before the first frame update
     void Start()
     {
-      // jar.gameObject.SetActive(false);
+        startRotation = transform.rotation;
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -43,5 +47,11 @@ public class ResetsGameObjects : MonoBehaviour
         jar.gameObject.SetActive(true);
         timeRemainnig = 1.5f;
         Debug.Log("false");
+    }
+
+
+    public void ResetRatation()
+    {
+        transform.rotation = startRotation;
     }
 }

@@ -173,6 +173,7 @@
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptVirtualTouches.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptZoomableScrollView.cs" />
     <Compile Include="Assets\Fingers\Demo\ExampleProjects\ExampleScripts\FingersExampleMainMenuScript.cs" />
+    <Compile Include="Assets\_PROJECT\SCRIPT\touchRotate.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Fingers\Demo\ExampleProjects\Resources\FingersExampleTransitionShader.shader" />

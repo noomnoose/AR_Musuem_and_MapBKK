@@ -56,122 +56,122 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersMultiDragComponentScript.cs" />
-    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptZoomableScrollView.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersScrollViewComponentScript.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptOneFinger.cs" />
-    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptPan.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptSwipe.cs" />
-    <Compile Include="Assets\Region_Capture\Scripts\RegionCapture.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\OneTouchRotateGestureRecognizerComponentScript.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptPlatformSpecificView.cs" />
-    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptLagTest.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\SetMaterialColoring.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\OpenUI.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScript.cs" />
-    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersPanRotateScaleComponentScript.cs" />
     <Compile Include="Assets\ARColor\Scripts\ARForVuforia\VuforiaAutoColor.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\ResetRotation.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersCameraMove3DComponentScript.cs" />
-    <Compile Include="Assets\ARColor\Scripts\Camera\CameraEvent.cs" />
-    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptComponent.cs" />
     <Compile Include="Assets\Fingers\Demo\ExampleProjects\ExampleScripts\FingersExampleCoRoutineScript.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Gestures\SwipeGestureRecognizer.cs" />
     <Compile Include="Assets\ARColor\Scripts\BeiJingOpera\SaveColorInfo.cs" />
-    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptMultiFingerTap.cs" />
-    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersOneTouchScaleAxisComponentScript.cs" />
     <Compile Include="Assets\Fingers\Demo\ExampleProjects\ExampleScripts\FingersExampleOptionsScript.cs" />
-    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptDimmingView.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Gestures\PanGestureRecognizer.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptJoystick.cs" />
+    <Compile Include="Assets\_PROJECT\SCRIPT\ExitApplication.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptPlaceObjects.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\TapGestureRecognizerComponentScript.cs" />
-    <Compile Include="Assets\Fingers\Prefab\Script\Components\RotateGestureRecognizerComponentScript.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\ResetScene.cs" />
     <Compile Include="Assets\ARColor\Scripts\BeiJingOpera\ColorCenter.cs" />
-    <Compile Include="Assets\ARColor\Scripts\BeiJingOpera\Base\BaseColor.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Gestures\TapGestureRecognizer.cs" />
-    <Compile Include="Assets\Fingers\Prefab\Script\Controls\FingersDPadScript.cs" />
-    <Compile Include="Assets\_PROJECT\SCRIPT\ExitApplication.cs" />
     <Compile Include="Assets\Region_Capture\Scripts\RC_Get_Texture.cs" />
     <Compile Include="Assets\Region_Capture\Scenes\Out_Of_Bounds_Detection\RC_Change_Color.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersFirstPersonControllerScript.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\PanGestureRecognizerComponentScript.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\BuildingInfoUI.cs" />
-    <Compile Include="Assets\ARColor\Scripts\Movement\Walk.cs" />
-    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersCrossPlatformInputReflectionScript.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Gestures\LongPressGestureRecognizer.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\OneTouchScaleGestureRecognizerComponentScript.cs" />
-    <Compile Include="Assets\Fingers\Prefab\Script\Gestures\ScaleGestureRecognizer.cs" />
-    <Compile Include="Assets\_PROJECT\SCRIPT\ResetsGameObjects.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersRotateOrbitComponentScript.cs" />
-    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptZoomPanCamera.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Controls\FingersJoystickScript.cs" />
+    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptZoomPanCamera.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptDynamicGrid.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\ImageSaver.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\MapEvent.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\ImageGestureRecognizerComponentScript.cs" />
-    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersPanOrbitComponentScript.cs" />
-    <Compile Include="Assets\ARColor\Scripts\BeiJingOpera\ColorDatas.cs" />
     <Compile Include="Assets\Fingers\Demo\ExampleProjects\ExampleScripts\FingersExampleSceneTransitionScript.cs" />
     <Compile Include="Assets\ARColor\Scripts\Scn_Main.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\ScaleGestureRecognizerComponentScript.cs" />
-    <Compile Include="Assets\_PROJECT\SCRIPT\CameraFocusController.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Gestures\DeviceInfo.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\FingersScript.cs" />
-    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersRotateCameraComponentScript.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Other\FingersUtilityMethodsScript.cs" />
-    <Compile Include="Assets\ARColor\OtherAssets\Scripts\Objects\Sun_Rotate.cs" />
-    <Compile Include="Assets\Region_Capture\Scripts\RenderTextureCamera.cs" />
-    <Compile Include="Assets\ARColor\OtherAssets\Scripts\Objects\EarthInSun.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoAsteroidScript.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\GestureRecognizerComponentScript.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptMultiDrag.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersPanARComponentScript.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Controls\FingersImageAutomationScript.cs" />
-    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScript3DOrbit.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersJoystickAnywhereComponentScript.cs" />
-    <Compile Include="Assets\Fingers\Prefab\Script\Components\LongPressGestureRecognizerComponentScript.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptMoveFire.cs" />
-    <Compile Include="Assets\ARColor\Scripts\BtnToMain.cs" />
     <Compile Include="Assets\ARColor\Scripts\BeiJingOpera\ColorData.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\SetMaterial.cs" />
     <Compile Include="Assets\ARColor\Scripts\ARForVuforia\ARBeijingOpera.cs" />
-    <Compile Include="Assets\Fingers\Prefab\Script\Gestures\OneTouchRotateGestureRecognizer.cs" />
     <Compile Include="Assets\ARColor\Scripts\Movement\Move3DText.cs" />
-    <Compile Include="Assets\Fingers\Prefab\Script\Gestures\OneTouchScaleGestureRecognizer.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Gestures\RotateGestureRecognizer.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptDPad.cs" />
-    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptRaycast.cs" />
     <Compile Include="Assets\ARColor\Scripts\PSScale.cs" />
     <Compile Include="Assets\Fingers\Demo\ExampleProjects\WordGame\FingersWordGameExampleScript.cs" />
-    <Compile Include="Assets\_PROJECT\SCRIPT\SceneChange.cs" />
-    <Compile Include="Assets\ARColor\Scripts\Camera\CameraOrbit.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\ShareButton.cs" />
-    <Compile Include="Assets\Region_Capture\Scripts\SetAutoOrthographicSize.cs" />
     <Compile Include="Assets\ARColor\OtherAssets\Scripts\Objects\EarthTouch.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptDragSwipe.cs" />
+    <Compile Include="Assets\ARColor\Scripts\ARForVuforia\VuforiaSquare.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Gestures\GestureRecognizer.cs" />
+    <Compile Include="Assets\ARColor\Scripts\ARForVuforia\VuforiaSchoolGirl.cs" />
+    <Compile Include="Assets\_PROJECT\SCRIPT\BuildingInfo.cs" />
+    <Compile Include="Assets\ARColor\Scripts\Base\BaseARColor.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersDragDropComponentScript.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersMultiDragComponentScript.cs" />
+    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptPan.cs" />
+    <Compile Include="Assets\Region_Capture\Scripts\RegionCapture.cs" />
+    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptLagTest.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersPanRotateScaleComponentScript.cs" />
+    <Compile Include="Assets\ARColor\Scripts\Camera\CameraEvent.cs" />
+    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptComponent.cs" />
+    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptMultiFingerTap.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersOneTouchScaleAxisComponentScript.cs" />
+    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptDimmingView.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Components\RotateGestureRecognizerComponentScript.cs" />
+    <Compile Include="Assets\ARColor\Scripts\BeiJingOpera\Base\BaseColor.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Controls\FingersDPadScript.cs" />
+    <Compile Include="Assets\ARColor\Scripts\Movement\Walk.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersCrossPlatformInputReflectionScript.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Gestures\ScaleGestureRecognizer.cs" />
+    <Compile Include="Assets\_PROJECT\SCRIPT\ResetsGameObjects.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersPanOrbitComponentScript.cs" />
+    <Compile Include="Assets\ARColor\Scripts\BeiJingOpera\ColorDatas.cs" />
+    <Compile Include="Assets\_PROJECT\SCRIPT\CameraFocusController.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersRotateCameraComponentScript.cs" />
+    <Compile Include="Assets\ARColor\OtherAssets\Scripts\Objects\Sun_Rotate.cs" />
+    <Compile Include="Assets\Region_Capture\Scripts\RenderTextureCamera.cs" />
+    <Compile Include="Assets\ARColor\OtherAssets\Scripts\Objects\EarthInSun.cs" />
+    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScript3DOrbit.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Components\LongPressGestureRecognizerComponentScript.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Gestures\OneTouchRotateGestureRecognizer.cs" />
+    <Compile Include="Assets\ARColor\Scripts\BtnToMain.cs" />
+    <Compile Include="Assets\Fingers\Prefab\Script\Gestures\OneTouchScaleGestureRecognizer.cs" />
+    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptRaycast.cs" />
+    <Compile Include="Assets\_PROJECT\SCRIPT\SceneChange.cs" />
+    <Compile Include="Assets\ARColor\Scripts\Camera\CameraOrbit.cs" />
+    <Compile Include="Assets\Region_Capture\Scripts\SetAutoOrthographicSize.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersImageGestureHelperComponentScript.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersPlatformMoveJumpComponentScript.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\UIFollowCamera.cs" />
     <Compile Include="Assets\Region_Capture\Scripts\DeviceOrientation.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\SwipeGestureRecognizerComponentScript.cs" />
-    <Compile Include="Assets\ARColor\Scripts\ARForVuforia\VuforiaSquare.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersZoomPanCameraComponentScript.cs" />
-    <Compile Include="Assets\Fingers\Prefab\Script\Gestures\GestureRecognizer.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptImage.cs" />
-    <Compile Include="Assets\_PROJECT\SCRIPT\BuildingInfo.cs" />
-    <Compile Include="Assets\ARColor\Scripts\ARForVuforia\VuforiaSchoolGirl.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Gestures\ImageGestureRecognizer.cs" />
     <Compile Include="Assets\ARColor\Scripts\Normal\SchoolGirl.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\DemoScriptOneFinger1.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersThirdPersonControllerScript.cs" />
-    <Compile Include="Assets\ARColor\Scripts\Base\BaseARColor.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptTapAndDoubleTap.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\DemoScriptOneFinger2.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptVirtualTouches.cs" />
-    <Compile Include="Assets\Fingers\Prefab\Script\Components\FingersDragDropComponentScript.cs" />
+    <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptZoomableScrollView.cs" />
     <Compile Include="Assets\Fingers\Demo\ExampleProjects\ExampleScripts\FingersExampleMainMenuScript.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -188,8 +188,8 @@
      <None Include="Assets\Region_Capture\Shaders\RC_Simple_Color.shader" />
      <None Include="Assets\ARColor\Shader\ARColorFrag.shader" />
      <None Include="Assets\Fingers\ChangeLog.txt" />
-     <None Include="Assets\ARColor\Shader\ARColorVert.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\AR_Musuem.xml" />
+     <None Include="Assets\ARColor\Shader\ARColorVert.shader" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Program Files\Unity\Editor\2020.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -810,10 +810,6 @@
       <Project>{D26517E1-E5FA-E8FD-C22A-F94C0B68EA8E}</Project>
       <Name>EditorMigrationScripts</Name>
     </ProjectReference>
-    <ProjectReference Include="NativeShare.Editor.csproj">
-      <Project>{C2B66580-DD39-827A-70A6-EDF1DB8E530B}</Project>
-      <Name>NativeShare.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{3D608FBA-52A5-349A-7A52-FB35A6BB658D}</Project>
       <Name>UnityEditor.UI</Name>
@@ -821,6 +817,10 @@
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{635D6207-BD29-E72E-74BF-8D547972EDD3}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="NativeShare.Editor.csproj">
+      <Project>{C2B66580-DD39-827A-70A6-EDF1DB8E530B}</Project>
+      <Name>NativeShare.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

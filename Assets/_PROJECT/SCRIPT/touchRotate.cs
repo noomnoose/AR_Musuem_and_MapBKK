@@ -36,7 +36,17 @@ public class touchRotate : MonoBehaviour
         }*/
              // .1 -> .2 x+
               // reverseQuaternion.x = +10; <= 45  +0
-        // 
+      if (Input.GetKeyDown(KeyCode.D))
+        {
+            if (reverseQuaternion.x <= 45)
+            {
+                reverseQuaternion.x = +1;
+            }
+            else if (reverseQuaternion.x >= -45)
+            {
+                reverseQuaternion.x =+ 1;
+            }
+        }
 
         if (rotate)
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(reverseQuaternion), Time.deltaTime * lerpTime);

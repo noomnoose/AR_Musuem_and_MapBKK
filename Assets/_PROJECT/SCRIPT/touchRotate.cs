@@ -24,7 +24,8 @@ public class touchRotate : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   if(Input.touchCount > 0)
+    {   /*
+        if(Input.touchCount > 0)
         {
             touch = Input.GetTouch(0);
             if(touch.phase == TouchPhase.Moved)
@@ -32,8 +33,11 @@ public class touchRotate : MonoBehaviour
                 reverseQuaternion.x = +10;
 
             }
-        }
-    
+        }*/
+             // .1 -> .2 x+
+              // reverseQuaternion.x = +10; <= 45  +0
+        // 
+
         if (rotate)
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(reverseQuaternion), Time.deltaTime * lerpTime);
         if (rotateConstantly && !rotate)

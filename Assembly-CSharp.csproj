@@ -73,7 +73,6 @@
     <Compile Include="Assets\Fingers\Demo\ExampleProjects\ExampleScripts\FingersExampleOptionsScript.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Gestures\PanGestureRecognizer.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptJoystick.cs" />
-    <Compile Include="Assets\_PROJECT\SCRIPT\touchRotate.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\ExitApplication.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptPlaceObjects.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Components\TapGestureRecognizerComponentScript.cs" />
@@ -110,7 +109,6 @@
     <Compile Include="Assets\ARColor\Scripts\BeiJingOpera\ColorData.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\SetMaterial.cs" />
     <Compile Include="Assets\ARColor\Scripts\ARForVuforia\ARBeijingOpera.cs" />
-    <Compile Include="Assets\_PROJECT\SCRIPT\OpenURL.cs" />
     <Compile Include="Assets\ARColor\Scripts\Movement\Move3DText.cs" />
     <Compile Include="Assets\Fingers\Prefab\Script\Gestures\RotateGestureRecognizer.cs" />
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptDPad.cs" />
@@ -176,6 +174,8 @@
     <Compile Include="Assets\Fingers\Demo\Scripts\DemoScriptZoomableScrollView.cs" />
     <Compile Include="Assets\Fingers\Demo\ExampleProjects\ExampleScripts\FingersExampleMainMenuScript.cs" />
     <Compile Include="Assets\_PROJECT\SCRIPT\RotateWithDrag.cs" />
+    <Compile Include="Assets\_PROJECT\SCRIPT\touchRotate.cs" />
+    <Compile Include="Assets\_PROJECT\SCRIPT\OpenURL.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Fingers\Demo\ExampleProjects\Resources\FingersExampleTransitionShader.shader" />

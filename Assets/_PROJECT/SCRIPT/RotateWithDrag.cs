@@ -53,8 +53,9 @@ namespace RakibUtils
                 if (!xRotation) deltaY = 0;
                 if (invertX) deltaY *= -1;
                 if (invertY) deltaX *= -1;
-                transform.Rotate(deltaX, deltaY, 0, Space.World);
-
+                //Debug.Log("X" + deltaX + "," + "Y" + deltaY);
+                transform.Rotate(deltaX, deltaY, 0, Space.Self);
+                
                 m_previousX = Input.mousePosition.x;
                 m_previousY = Input.mousePosition.y;
             }

@@ -15,6 +15,9 @@ public class touchRotate : MonoBehaviour
 
 
     private Touch touch;
+    public float rotatespeed = 10f;
+    private float _startingPosition;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,29 +27,38 @@ public class touchRotate : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   /*
-        if(Input.touchCount > 0)
+    {
+        if (Input.touchCount > 0)
         {
-            touch = Input.GetTouch(0);
-            if(touch.phase == TouchPhase.Moved)
+            Touch touch = Input.GetTouch(0);
+            switch (touch.phase)
             {
-                reverseQuaternion.x = +10;
+                case TouchPhase.Began:
+                    _startingPosition = touch.position.x;
+                    break;
+                case TouchPhase.Moved:
+                    if (_startingPosition > touch.position.x)
+                    {
 
-            }
-        }*/
-             // .1 -> .2 x+
-              // reverseQuaternion.x = +10; <= 45  +0
-      if (Input.GetKeyDown(KeyCode.D))
-        {
-            if (reverseQuaternion.x <= 45)
-            {
-                reverseQuaternion.x = +1;
-            }
-            else if (reverseQuaternion.x >= -45)
-            {
-                reverseQuaternion.x =+ 1;
+                       // transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(reverseQuaternion), Time.deltaTime * lerpTime);
+                       // transform.Rotate(Vector3.back, -rotatespeed * Time.deltaTime);
+                    }
+                    else if (_startingPosition < touch.position.x)
+                    {
+
+                       // transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(reverseQuaternion), Time.deltaTime * lerpTime);
+                       // transform.Rotate(Vector3.back, rotatespeed * Time.deltaTime);
+                    }
+                    break;
+                case TouchPhase.Ended:
+                    Debug.Log("Touch Phase Ended.");
+                    break;
+            
             }
         }
+    
+
+
 
         if (rotate)
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(reverseQuaternion), Time.deltaTime * lerpTime);

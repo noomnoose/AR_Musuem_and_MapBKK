@@ -44,6 +44,7 @@ public class ColorCenter : BaseColor
     public void Btn_Color()
     {
         RemoveTexture();
+       // StartCoroutine(delayMat());
 
         if (ifCanColor)
         {
@@ -55,7 +56,7 @@ public class ColorCenter : BaseColor
         {
             Debug.Log("点的太快了");
         }
-       
+        Debug.Log("สแกนภาพแล้ว");
     }
 
     /// <summary>
@@ -223,6 +224,10 @@ public class ColorCenter : BaseColor
     {
         yield return new WaitForSeconds(1.1f);
         ifCanColor = true;
+    }
+    IEnumerator delayMat()
+    {
+        yield return new WaitForSeconds(0.5f);
     }
 
 

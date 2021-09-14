@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,7 +20,7 @@ public class SetMaterial : MonoBehaviour
     {
         rend = GetComponent<Renderer>();
         rend.enabled = true;
-        rend.sharedMaterial = material[0];
+       // rend.sharedMaterial = material[0];
     }
 
 
@@ -37,6 +37,7 @@ public class SetMaterial : MonoBehaviour
             {
                 timeIsRunning = false;
                 rend.sharedMaterial = material[0];
+                Debug.Log("เรียกสีน้ำตาล");
             }
         }
     }
@@ -53,6 +54,16 @@ public class SetMaterial : MonoBehaviour
 
     public void Original()
     {
+       /// rend.sharedMaterial = material[1];
+        StartCoroutine(delaMat());
+    }
+
+
+    IEnumerator delaMat()
+    {
+        yield return new WaitForSeconds(0.1f);
         rend.sharedMaterial = material[0];
+        Debug.Log("เปลี่ยน");
+
     }
 }
